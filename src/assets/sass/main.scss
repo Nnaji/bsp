@@ -1,0 +1,18 @@
+/**************************************************************
+	@AUTHOR: Kingsley Nnaji <kingsley.nnaji@gmail.com>
+	@LICENSE: MIT
+	Creation Date: 03.10.2019
+***************************************************************/
+@charset "utf-8";
+@import './color-variables/_pr';
+$base-color: $pr-color-a;
+$font-color: $pr-color-b;
+$header-bg-color: $pr-color-c;
+$title-color: $pr-color-a;
+
+body {
+    background-color: $base-color;
+    h1 {
+        color: $font-color;
+    }
+}
